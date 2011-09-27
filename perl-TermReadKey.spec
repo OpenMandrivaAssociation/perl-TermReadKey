@@ -15,10 +15,10 @@ Group: Development/Perl
 URL: http://search.cpan.org/dist/TermReadKey/
 Source: http://www.cpan.org/modules/by-module/Term/TermReadKey-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
+BuildArch: noarch
 BuildRequires: perl
 BuildRequires: perl(ExtUtils::MakeMaker)
 Requires: perl
-
 Obsoletes: perl-Term-ReadKey <= %{version}-%{release}
 Provides: perl-Term-ReadKey = %{version}-%{release}
 
