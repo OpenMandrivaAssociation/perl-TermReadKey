@@ -9,7 +9,7 @@
 Summary: Perl module for simple terminal control
 Name: perl-TermReadKey
 Version: 2.30
-Release: %mkrel 1
+Release: 2
 License: Artistic/GPL
 Group: Development/Perl
 URL: https://search.cpan.org/dist/TermReadKey/
